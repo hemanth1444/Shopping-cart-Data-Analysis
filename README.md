@@ -33,16 +33,17 @@ All csv files are present [here(drive)](https://drive.google.com/drive/folders/1
   - The majority of the orders are made during the day.  
   - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
   -most of the orders takes place from 8AM to 6 PM
+plots/Data Analyzation/Distribution of Orders in Various Sets.png
 <p align="center">
-  <img width="400" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Total%20Orders%20per%20Day%20of%20Week.png">
+  <img width="400" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/Data%20Analyzation/Total%20Orders%20per%20Day%20of%20Week.png">
 </p>
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Total%20Orders%20by%20Customers.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Total%20Orders%20by%20Customers.png">
 </p>  
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Day%20of%20week%20Vs%20Hour%20of%20day.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Day%20of%20week%20Vs%20Hour%20of%20day.png">
 </p>  
   
 - **products:** This file contains the list of total 49688 products and their aisle as well as department. The number of products in different aisles and different departments are different.
@@ -54,7 +55,7 @@ All csv files are present [here(drive)](https://drive.google.com/drive/folders/1
     - The percentage of reorder items in this set is 58.97%.
 
 <p align="center">
-  <img width="600" height="300" src= "https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Prior%20set.png">
+  <img width="600" height="300" src= "https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Prior%20set.png">
 </p>  
 
 - **order_products_train:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
@@ -63,7 +64,7 @@ All csv files are present [here(drive)](https://drive.google.com/drive/folders/1
     - The percentage of reorder items in this set is 59.86%.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Train%20set.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Train%20set.png">
 </p>
   
 ## Exploratory Data Analysis
@@ -71,45 +72,45 @@ For the analysis I combined all of the separate data files into one single dataf
 
 - This plot shows most popular aisles based on total products bought.
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Total%20Orders%20and%20Reorders%20From%20Most%20Popular%20Aisles.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Total%20Orders%20and%20Reorders%20From%20Most%20Popular%20Aisles.png">
 </p>
 - As we can see in plot below the reorder percentage of day-to-day food items is high and for other products such as vitamins, first-aids, beauty products, etc. reorder percentage is low. This is true as we buy only groceries regularly and do not buy those items in every order.
 
 <p align="center">
-<img width="400" height="220" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Aisles%20with%20Highest%20Reorder%20Ratio.png"> 
-<img width="400" height="220" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Aisles%20with%20Lowest%20Reorder%20Ratio.png"> 
+<img width="400" height="220" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Aisles%20with%20Highest%20Reorder%20Ratio.png"> 
+<img width="400" height="220" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Aisles%20with%20Lowest%20Reorder%20Ratio.png"> 
 <p/>
 
 - The below plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Total%20Orders%20and%20Reorders%20From%20Departments.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Total%20Orders%20and%20Reorders%20From%20Departments.png">
 </p>
 
 - The below plot shows most popular products. As we can see there are many organic products in the most popular products.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Most%20Popular%20Products.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Most%20Popular%20Products.png">
 </p>
 
 - We can see that there are less number of organic products, but their Mean reorder percentage is high. This tells us that we should focus more on organic products in the store.
 
 <p align="center">
-    <img width="400" height="250" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Total%20Organic%20and%20Inorganic%20products.png"/> 
-    <img width="400" height="250" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Mean%20Reorder%20Ratio%20of%20Organic_Inorganic%20Products.png"/>
+    <img width="400" height="250" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Total%20Organic%20and%20Inorganic%20products.png"/> 
+    <img width="400" height="250" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Mean%20Reorder%20Ratio%20of%20Organic_Inorganic%20Products.png"/>
 </p>
 
 
 - We can plot add-to-cart-order and mean reorder percentage. As we can see the lower the add-to-cart-order higher is the reorder percentage. This makes sense as we mostly buy things first that are required on a day-to-day basis.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Add%20to%20Cart%20Order%20VS%20Reorder%20Ratio.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Add%20to%20Cart%20Order%20VS%20Reorder%20Ratio.png">
 </p>
 
 - In the below plot of reorder percentage and number of product purchases, we see a ceiling effect. Many people try different product once and they do not reorder again. Also, there are users who buy certain products regularly. 
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Reorder%20Percentage%20VS%20Total%20Orders.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Reorder%20Percentage%20VS%20Total%20Orders.png">
 </p>
 
 - We can see that the total unique users of products having the highest reorder ratio are only a few (1-15 only). This means that these users like these products and would buy regularly.
@@ -122,7 +123,7 @@ For the analysis I combined all of the separate data files into one single dataf
 - In the below plot of cumulative total users per product vs products, we can see that 85% of the users buy only 10000 products out of 49688 products. If we are interested in shelf space optimization, we should have only these 10000 products. Here, I assume that the profit from remaining 39688 products are not significant high. If we had prices of these products, we could have considered the products having high revenue, high reorder percentage and high total product sale.
 
 <p align="center">
-  <img width="600" height="300" src= "https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Cumulative%20Sum%20of%20Unique%20Users.png">
+  <img width="600" height="300" src= "https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/EDA/Cumulative%20Sum%20of%20Unique%20Users.png">
 </p>
 
 ## Markest Basket Analysis
@@ -255,15 +256,15 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 **Neural Network Model Architecture and Performance:**
 
 <p align="center">
-  <img width="500" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/archie-ann.png">
+  <img width="500" height="200" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/archie-ann.png">
 </p>
 
 <p align="center">
-  <img width="450" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/report-ann.png">
+  <img width="450" height="200" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/report-ann.png">
 </p>
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/metrics-ann.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/metrics-ann.png">
 </p>
 
 **XGBoost Model's Performance and Feature Importance:**
@@ -274,10 +275,10 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 </p>
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/xgboost%20model/cofusion%20matrix_ROC.png">
+  <img width="600" height="300" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/xgboost%20model/cofusion%20matrix_ROC.png">
 </p>
 
 <p align="center">
-  <img width="500" height="750" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/xgboost%20model/feature_importance.png">
+  <img width="500" height="750" src="https://github.com/hemanth1444/Shopping-cart-Analysis/blob/main/plots/xgboost%20model/feature_importance.png">
 </p>
 
